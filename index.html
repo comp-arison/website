@@ -4,17 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nathan Boehm</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
 
-    <div class="container">
-      <div style="background-color: white; text-align: left;">
-        <p style="font-size: 6.8vmin;">My name is <b class="blue">Nathan Boehm</b>.<br>This is my <b class="blue">website</b>.</p>
-        <a href="/">
+    <div class="container" id="banner">
+      <div style="background-color: white; text-align: left; border: none">
+        <p style="font-size: 6.7vmin;">My name is <b class="blue">Nathan Boehm</b>.<br>This is my <b class="blue">website</b>.</p>
+        <a href="index.html">
           <span class="link"></span>
         </a>
       </div>
@@ -24,28 +21,28 @@
       
       <div style="background-color: #42D0FF; color: white;">
         <b>About</b>
-        <a href="/about">
+        <a href="about.html">
           <span class="link"></span>
         </a>
       </div>
       
       <div style="background-color: #808080; color: white;">
         <b>Resume</b>
-        <a href="/resume">
+        <a href="resume.html">
           <span class="link"></span>
         </a>
       </div>
       
       <div style="background-color: #F39000; color: white;">
         <b>Classmates</b>
-        <a href="/classmates">
+        <a href="classmates.html">
           <span class="link"></span>
         </a>
       </div>
 
       <div style="background-color: #F48FB1; color: white;">
         <b>Contact</b>
-        <a href="/contact">
+        <a href="contact.html">
           <span class="link"></span>
         </a>
       </div>
@@ -109,14 +106,14 @@
       
       <div style="background-color: #037945; color: white;">
         <p><b class="title">Excel Games</b><br>A bunch of old games I made in Micosoft Excel.</p>
-        <a href="/excel">
+        <a href="excel.html">
           <span class="link"></span>
         </a>
       </div>
 
       <div style="background-color: black; color: white;">
         <canvas id="screen" style="position: absolute;"></canvas>
-        <p style="mix-blend-mode: difference;"><b class="title">Game of Life</b><br>A simple remake of Conway's Game Of Life.</p>
+        <p style="z-index: 1;"><b class="title">Game of Life</b><br>A simple remake of Conway's Game Of Life.</p>
         <a href="https://nathanboehm.com/gameoflife">
           <span class="link"></span>
         </a>
@@ -125,12 +122,9 @@
     </div>
 
 
-    <div class="container">
+    <div class="container" id="footer">
       <div style="background-color: white; text-align: left;">
-        <p style="font-size: 4vmin;">&copy;2023 Nathan Boehm</p>
-        <a href="/">
-          <span class="link"></span>
-        </a>
+        <p style="font-size: 3.5vmin;">&copy;2023 Nathan Boehm</p>
       </div>
     </div>
 

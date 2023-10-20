@@ -142,7 +142,7 @@ function mainloop() {
     grid[Math.floor(mousey / scale)][Math.floor(mousex / scale)] = drawcell;
   }
   
-  ctx.fillStyle = "white";
+  ctx.fillStyle = "gray";
   for (var y = 0; y < grid.length; y++) {
     for (var x = 0; x < grid[y].length; x++) {
       if (grid[y][x]) {

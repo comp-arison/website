@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0 1em;
     font-family: Arial;
 }
 
@@ -7,6 +7,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     border: 2px solid black;
+}
+
+#banner {
+    border: none;
+}
+#banner div {
+    border: none;
 }
 
 .container div {
@@ -54,8 +61,8 @@ body {
 #house {
     display: block;
     position: absolute;
-    width: 6.8vmin;
-    height: 6.8vmin;
+    width: 6.7vmin;
+    height: 6.7vmin;
     right: 0.5vmin;
     bottom: 0.5vmin;
 }
@@ -63,9 +70,16 @@ body {
 #arrow {
     display: none;
     position: absolute;
-    width: 6.8vmin;
-    height: 6.8vmin;
+    width: 6.7vmin;
+    height: 6.7vmin;
     right: 1vmin;
     bottom: 0vmin;
     transition: transform .33s ease;
+}
+
+#footer {
+    border: none;
+}
+#footer div {
+    border: none;
 }
