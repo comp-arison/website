@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.container div {
+    min-width: fit-content;
+    max-width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3em;
+    flex: 1 1 150px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.container div p {
+    margin: 0;
+    font-size: 0.75em;
+}
+
+.title {
+    font-size: 1.25em;
+}
+
+.blue {
+    color: #42D0FF;
+}
+
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#navbar {
+    position: relative;
+    z-index: 1;
+    -webkit-transition: top 0.33s ease;
+}
+
+#house {
+    display: block;
+    position: absolute;
+    width: 6.8vmin;
+    height: 6.8vmin;
+    right: 0.5vmin;
+    bottom: 0.5vmin;
+}
+
+#arrow {
+    display: none;
+    position: absolute;
+    width: 6.8vmin;
+    height: 6.8vmin;
+    right: 1vmin;
+    bottom: 0vmin;
+    transition: transform .33s ease;
+}
